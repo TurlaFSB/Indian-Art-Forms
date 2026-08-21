@@ -1,7 +1,6 @@
-# THE LIVING CANVAS — Premium Museum Edition
+# THE LIVING CANVAS 
 
-## Assignment
-Interactive Art Map (10 Marks) — CO1
+## Interactive Art Map 
 
 **Objective:** Explore the geographic spread and influence of different art styles across India.
 
