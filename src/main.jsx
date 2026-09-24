@@ -127,7 +127,7 @@ export default function App() {
           <div>
             <h1 className="museum-brand-title">THE LIVING CANVAS</h1>
             <span className="museum-brand-subtitle">
-              National Digital Museum · Curated by <strong style={{ color: "#ffffff" }}>NIRAJ KUMAR</strong> (RA2411003011259)
+              National Digital Museum · Curated by <strong style={{ color: "#ffffff" }}>Niraj Kumar</strong> (RA2411003011259)
             </span>
           </div>
         </div>
