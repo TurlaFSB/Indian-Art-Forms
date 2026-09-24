@@ -126,9 +126,7 @@ export default function App() {
           <div className="museum-logo-mark">LC</div>
           <div>
             <h1 className="museum-brand-title">THE LIVING CANVAS</h1>
-            <span className="museum-brand-subtitle">
-              National Digital Museum · Curated by <strong style={{ color: "#ffffff" }}>PRANAV VERMA</strong> (RA2411030010008)
-            </span>
+            <span className="museum-brand-subtitle">National Digital Museum of Indian Art History</span>
           </div>
         </div>
 

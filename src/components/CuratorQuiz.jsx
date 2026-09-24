@@ -20,7 +20,7 @@ export default function CuratorQuiz({ onClose }) {
   const [score, setScore] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
   const [isComplete, setIsComplete] = useState(false);
-  const [candidateName, setCandidateName] = useState("PRANAV VERMA (RA2411030010008)");
+  const [candidateName, setCandidateName] = useState("Art Scholar");
 
   const question = CURATOR_QUIZ_QUESTIONS[currentStep];
 
