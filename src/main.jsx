@@ -126,7 +126,9 @@ export default function App() {
           <div className="museum-logo-mark">LC</div>
           <div>
             <h1 className="museum-brand-title">THE LIVING CANVAS</h1>
-            <span className="museum-brand-subtitle">National Digital Museum of Indian Art History</span>
+            <span className="museum-brand-subtitle">
+              National Digital Museum · Curated by <strong style={{ color: "#ffffff" }}>NIRAJ KUMAR</strong> (RA2411003011259)
+            </span>
           </div>
         </div>
 

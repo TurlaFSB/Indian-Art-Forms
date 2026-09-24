@@ -10,7 +10,7 @@ export default function CuratorNotebook({
 }) {
   const [curatorNotes, setCuratorNotes] = useState({});
   const [exhibitionTitle, setExhibitionTitle] = useState("Voices of Earth & Light: A Personal Indian Art History");
-  const [curatorName, setCuratorName] = useState("Guest Curator");
+  const [curatorName, setCuratorName] = useState("Niraj Kumar (RA2411003011259)");
 
   const handleNoteChange = (id, text) => {
     setCuratorNotes(prev => ({ ...prev, [id]: text }));
@@ -27,7 +27,7 @@ export default function CuratorNotebook({
         <div className="notebook-title-block">
           <div className="eyebrow"><Bookmark size={13} /> CURATORIAL NOTEBOOK & EXHIBITION STUDIO</div>
           <h2>My Curated Exhibition</h2>
-          <span className="curator-credit-tag"><User size={12} /> Curatorial Workspace</span>
+          <span className="curator-credit-tag"><User size={12} /> Curated by {curatorName}</span>
         </div>
         <button className="notebook-close-btn" onClick={onClose}>
           <X size={16} /> <span>CLOSE NOTEBOOK</span>
@@ -47,12 +47,12 @@ export default function CuratorNotebook({
             />
           </div>
           <div className="config-field">
-            <label>CURATED BY</label>
+            <label>CURATED BY (CHIEF CURATOR & REG NO.)</label>
             <input
               type="text"
               value={curatorName}
               onChange={e => setCuratorName(e.target.value)}
-              placeholder="Your name / institution..."
+              placeholder="Niraj Kumar (RA2411003011259)"
             />
           </div>
           <div className="config-actions">
